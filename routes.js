@@ -7,8 +7,7 @@ var cartList = [];
 function createRoutes (app, db) {
     
     
-    
-    
+
     
     app.post('/api/cart/:id', (request, response) => {
         var id = request.params.id;
