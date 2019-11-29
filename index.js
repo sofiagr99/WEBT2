@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname,'public')));
 
 
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://sofiag:sofia12345@cluster0-ebwon.mongodb.net/test?retryWrites=true&w=majority';
 const dbName = 'products';
 const client = new MongoClient(url);
 const createRoutes = require('./routes.js');
