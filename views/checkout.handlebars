@@ -1,0 +1,30 @@
+ 
+ <div class="checkout">
+
+ <div class="checkout__title">
+        <p class="title__name">CheckOut</p>
+        <div class="title__line"></div>
+    </div>
+
+
+<form action="/buy/" method="post">
+<div class="checkout__datos">
+   <p class="titulo"for="checkout__name" class="titulo">Nombre</p>
+    <input  class="datos__input" id="checkout__name" type="text" name="name" placeholder=""> <br>
+   <p class="titulo"for="checkout__dir" class="titulo">ID</p>
+    <input  class="datos__input" id="checkout__dir" type="text" name="id" placeholder="ID"><br>
+      <p class="titulo" for="checkout__medioDePago" class="titulo">Medio de pago</p>
+      <select  class="checkout__medioDePago" name="tarjet">
+            <option class="input__option"value="VISA">VISA</option>
+            <option class="input__option"value="MASTERCARD">MASTERCARD</option>
+      </select>
+       <p class="titulo" for="checkout__securityCode" class="titulo">Direccion</p>
+      <input  class="datos__input" id="checkout__securityCode" type="text" name="dir" placeholder=""><br>
+
+    <input class="checkout__comprar" type="submit" value="COMPRAR">
+</div>
+</form>
+ </div>
+ <script src="/scripts/header.js"></script>
+
+

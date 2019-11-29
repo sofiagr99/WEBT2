@@ -1,0 +1,45 @@
+<div class="cart">
+    <div class="cart__title">
+        <p class="title__name">Carrito de compras</p>
+        <div class="title__line"></div>
+    </div>
+
+    <div class="cart_products">
+    {{#each cart_products}}
+      <div class="cart__product">
+      <img class="product__image"src={{imagen}} alt="">
+      <p class="product__name">{{nombre}}</p>
+      <div class="product__canti">
+          <p class="canti__title">Cantidad</p>
+          <p class="canti__quantity">#{{cantidad}}</p>
+      </div>
+
+          <div class="product__canti">
+          <p class="canti__title">Precio</p>
+          <p class="canti__quantity">${{precio}}</p>
+      </div>
+
+      <a class="product__delete" data-name="{{this._id}}" href=""><img src="/images/UMIWA/Iconos/basura.png" alt=""></a>
+
+    </div>
+    {{/each}}
+
+    </div>
+
+    <div class="cart__totalCount">
+    <p class="totalCount__total">TOTAL  ${{total}}</p>
+    <div class="totalCount__line"></div>
+    </div>
+
+       <a class="cart__checkout" href="/checkout">
+                     <p>CheckOut</p>
+          </a> 
+</div>
+
+    <script src="/scripts/cart.js"></script>
+
+ <script src="/scripts/header.js"></script>
+  <script src="/scripts/main.js"></script>
+
+
+

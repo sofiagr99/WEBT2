@@ -1,0 +1,74 @@
+<div class="store">
+
+
+     <div class="store__port">
+       <div class="port__category">
+
+       </div>
+       <div class="pordata__popular">
+          <p class="populares__title">Populares</p>
+          <div class="populares__games">
+           <a class="games__cod"   data-name="id del cod" href="/product/5de0310fd9a64e790e206705"> <img src="/images/UMIWA/Inicio/cod.png" alt=""></a>
+           <a class="games__lol"   data-name="id de lol" href="/product/5de0310fd9a64e790e206701"> <img src="/images/UMIWA/Inicio/lol.png" alt=""></a>
+           <a class="games__gtav"   data-name="id de gtav" href="/product/5de0310fd9a64e790e206704"> <img src="/images/UMIWA/Inicio/gta.png" alt=""></a>
+
+          </div>
+       </div>
+     </div>
+
+
+    <div class="store__productlist">
+
+        <p class="productlist__title">Lista de productos</p>
+        <div class="productlist__filter">
+         <p class="order__title">Ordenar por</p>
+      
+         <form action="/" method="GET">
+          <select name="orderType">
+        <option value="popularity">Popularidad</option>
+        <option value="alfabet">Alfabeto</option>
+          <option value="price">Precio</option>
+
+
+        </select>
+        <button class="filters__enviar" type="submit">Ordenar</button>
+         </form>
+
+         <p class="order__title">Filtrar por</p>
+               <form action="/" method="GET">
+          <select name="filter">
+        <option value="sports">Juegos deportivos</option>
+        <option value="war">Juegos de guerra</option>
+          <option value="adventure">Aventura</option>
+
+
+        </select>
+        <button class="filters__enviar" type="submit">Ordenar</button>
+         </form>
+    
+        </div>
+
+        <div class="productlist__products">
+            {{#each products}}
+            
+            <div class="products__product">
+             <a href="/product/{{this._id}}" class="product__page"><img class="product__image" src={{imagen}} alt=""></a>
+             <div class="product__data">
+               <div class="data__price">
+             <p class="data__oldPrice">$<strike>200</strike></p>
+             <p class="data__newPrice">${{precio}}</p>
+             </div>
+
+             <a class="product__addCart"  data-name="{{this._id}}" href=""><img src="/images/UMIWA/Iconos/carroProduct.png" alt=""></a>
+
+             </div>
+
+            </div>
+            {{/each}}
+        </div>
+   </div>
+
+<script src="/scripts/store.js"></script>
+ <script src="/scripts/header.js"></script>
+
+
