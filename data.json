@@ -1,0 +1,165 @@
+[
+    {
+        "categoria": "DEPORTES",
+        "nombre":"Football Manager 2020",
+        "descripcion": "Dirige tu club de fútbol, ​​a tu manera. <br>Cada decisión cuenta en Football Manager 2020 con nuevas características <br> y una mecánica de juego pulida que recompensa la planificación y la progresión como nunca antes, <br> lo que permite a los gerentes desarrollar y refinar la identidad única de su club",
+        "precio":120.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/football.png"
+    },
+    {
+        "categoria": "DEPORTES",
+        "nombre":"Rocket League",
+        "descripcion": "Rocket League es un híbrido de gran potencia del fútbol <br> de estilo arcade y el caos vehicular con controles fáciles de entender <br> y una competencia fluida basada en la física. Rocket League incluye Partidos en línea<br> casuales y competitivos, un modo de temporada fuera de línea con todas las funciones",
+        "precio":175.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/rocket.png"
+
+    },
+    {
+        "categoria": "DEPORTES",
+        "nombre":"League of Legends",
+        "descripcion": "Todos los días, millones de jugadores de todo el mundo entran <br> en batalla como uno de los más de cien héroes de Lol. <br> Y no importa si es su décima hora de juego o la milésima, siempre hay algo nuevo por descubrir. Con actualizaciones<br> periódicas que aseguran una evolución constante de la jugabilidad.",
+        "precio":15.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/lol.png"
+    },
+    {
+        "categoria": "DEPORTES",
+        "nombre":"FIFA 2020",
+        "descripcion": "Experimente un realismo y autenticidad sin igual <br> en el juego de fútbol definitivo de este año: FIFA 2020.",
+        "precio":155.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/FIFA.png"
+    },
+    {
+        "categoria": "DEPORTES",
+        "nombre":"NBA 2K20",
+        "descripcion": "K vuelve a definir los juegos deportivos con NBA 2K20,<br> el título con los mejores gráficos y jugabilidad, innovadores modos de juego <br> y una personalización y manejo de los jugadores incomparables.",
+        "precio":145.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/NBA.png"
+    },
+    {
+        "categoria": "GUERRA",
+        "nombre":"Grand Theft Auto V",
+        "descripcion": "Cuando un joven estafador callejero, un ladrón de bancos retirado <br> y un psicópata aterrador se encuentran enredados con algunos de los elementos más aterradores <br> y trastornados del inframundo criminal, el gobierno de los EE. UU. Y la industria del entretenimiento,<br> deben realizar una serie de atracos",
+        "precio":195.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/grand.png"
+    },
+    {
+        "categoria": "GUERRA",
+        "nombre":"Call of Duty: Black Ops",
+        "descripcion": "La serie de acción en primera persona más grande de todos los tiempos <br> y el seguimiento de Call of Duty®: Modern Warfare 2 <br> aclamado por la crítica regresa con Call of Duty®: Black Ops.",
+        "precio":105.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/call.png"
+    },
+    {
+        "categoria": "GUERRA",
+        "nombre":"Counter-Strike",
+        "descripcion": "Counter-Strike: Global Offensive (CS: GO) amplía el juego de <br> acción basado en equipos que fue pionero cuando se lanzó hace 19 años. CS:<br> GO presenta nuevos mapas, personajes, armas y modos de juego, y ofrece versiones <br>actualizadas del contenido clásico de CS (de_dust2, etc.).",
+        "precio":98.000,
+        "popularidad":3,
+        "imagen":"./images/UMIWA/Videojuegos/counter.png"
+    },
+    {
+        "categoria": "GUERRA",
+        "nombre":"Tom Clancy's Rainbow Six Siege",
+        "descripcion": "Tom Clancy's Rainbow Six Siege es la última entrega de la aclamada <br>  franquicia de disparos en primera persona desarrollada por el reconocido estudio <br> Ubisoft Montreal.",
+        "precio":145.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/rainbow.png"
+    },
+    {
+        "categoria": "GUERRA",
+        "nombre":"Garry's Mod",
+        "descripcion": "Garry's Mod es un entorno limitado de física. No hay objetivos u objetivos predefinidos. Te damos las herramientas y te dejamos para jugar.",
+        "precio":125.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/garrys.png"
+    },
+    {
+        "categoria": "GUERRA",
+        "nombre":"World of Tanks Blitz",
+        "descripcion": "Trepidante MMO de acción táctica con batallas JcJ de carros blindados.",
+        "precio":85.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/tanks.png"
+    },
+    {
+        "categoria": "AVENTURA",
+        "nombre":"Destiny 2",
+        "descripcion": "Nuevas pesadillas han surgido de las sombras de la Luna. <br> Impulsada por visiones inquietantes, Eris Morn ha regresado. <br> Únete para derrotar estas pesadillas antes de que dejen la Luna y <br> sumerjan a la humanidad en otra era oscura.",
+        "precio":185.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/destiny.png"
+    },
+    {
+        "categoria": "AVENTURA",
+        "nombre":"MONSTER HUNTER",
+        "descripcion": "¡Bienvenido a un mundo nuevo! En Monster Hunter: World, <br>la última entrega de la serie, puedes disfrutar de la mejor experiencia de caza,<br> utilizando todo lo que tienes a tu disposición para cazar <br>monstruos en un mundo nuevo lleno de sorpresas y emoción.",
+        "precio":15.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/monster.png"
+    },
+    {
+        "categoria": "AVENTURA",
+        "nombre":"Planet Zoo",
+        "descripcion": "Crea un mundo para la vida silvestre en Planet Zoo. <br> De los creadores de Planet Coaster y Zoo Tycoon, llega el último simulador de zoológicos.<br>  Construye hábitats detallados, gestiona tu zoológico y mira auténticos <br> animales vivos que piensan, sienten y exploran <br>el mundo que creas a su alrededor.",
+        "precio":100.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/zoo.png"
+    },
+    {
+        "categoria": "AVENTURA",
+        "nombre":"The Forest",
+        "descripcion": "Como el único sobreviviente de un accidente de avión de pasajeros,<br> te encuentras en un misterioso bosque luchando por sobrevivir con los mutantes caníbales. <br>Construye, explora y sobrevive en este terrorífico simulador de terror y <br>supervivencia en primera persona.",
+        "precio":90.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/forest.png"
+    },
+    {
+        "categoria": "AVENTURA",
+        "nombre":"Cyberpunk 2077",
+        "descripcion": "Cyberpunk 2077 es una historia de acción y aventuras en mundo abierto ambientada <br> en Night City, una megalópolis obsesionada con el poder, el glamur y la modificación corporal.<br> Te pondrás en la piel de V, un mercenario que persigue <br>un implante único: el secreto de la inmortalidad. ",
+        "precio":195.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/cyber.png"
+    },
+    {
+        "categoria": "AVENTURA",
+        "nombre":"Atelier Ryza",
+        "descripcion": "El concepto de este juego, el más reciente de la serie que<br> muestra un nuevo mundo de Atelier, es Jóvenes realistas que juntos se desarrollan, <br>aunque sea solo un poco",
+        "precio":185.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/artelier.png"
+    },
+    {
+        "categoria": "AVENTURA",
+        "nombre":"Muerto a la luz del día",
+        "descripcion": "Dead by Daylight es un juego de terror multijugador (4vs1) <br>en el que un jugador asume el papel del asesino salvaje, y los otros cuatro <br>jugadores juegan como Supervivientes, tratando de escapar <br>del Asesino y evitar ser atrapados y asesinados. ",
+        "precio":100.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/dead.png"
+    },
+    {
+        "categoria": "AVENTURA",
+        "nombre":"ARK: supervivencia evolucionada",
+        "descripcion": "Varado a orillas de una isla misteriosa, debes aprender<br> a sobrevivir. Usa tu astucia para matar o domar a las criaturas primitivas que<br> deambulan por la tierra, y encuentra a otros <br>jugadores para sobrevivir, dominar ... ¡y escapar!",
+        "precio":186.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/ARK.png"
+    }
+    ,
+    {
+        "categoria": "AVENTURA",
+        "nombre":"Farming Simulator 19",
+        "descripcion": "La franquicia más vendida da un salto gigante hacia adelante<br> con una revisión completa del motor gráfico, que ofrece los efectos visuales más <br>impactantes y envolventes, junto con la experiencia de cultivo<br> más profunda y completa de la historia.",
+        "precio":186.000,
+        "popularidad":1,
+        "imagen":"./images/UMIWA/Videojuegos/farm.png"
+    }
+
+]
