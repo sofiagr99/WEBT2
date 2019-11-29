@@ -1,0 +1,193 @@
+.header--position {
+    @media screen and (max-width: $phoneWidth) {
+        width: 411px;
+        
+        .header__hawkerslogo{
+            margin-top:10px;
+        }
+        
+        .header__cart{
+            margin-top:10px;
+            
+        }
+        
+    }
+    
+    .header__nav--active{
+        opacity: 1;
+        pointer-events: all;
+        transform: translate(0%, 0%);
+        background: rgba(51, 52, 53, 0.6);
+        backdrop-filter: blur(4px);
+        height: 180px;
+        top: 0;
+        z-index: 1;
+        width: 250px;
+        margin-left:-80px;
+    }
+    
+    
+    
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    .cart__title{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        .title__name{
+            font-family: Teko;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 43px;
+            letter-spacing: 0.05em;
+            
+            color: #302F2F;
+        }
+        .title__line{
+            margin-top:-30px;
+            width: 108px;
+            height: 0px;
+            border: 3px solid #302F2F;
+            transform: rotate(180deg);
+            
+        }
+    }
+    
+    .cart_products{
+        margin-top:30px;
+        .cart__product{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-content: center;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            
+            .product__image{
+                width: 112px;
+                height: 150px;
+                margin-right: 60px;
+            }
+            
+            .product__name{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: 0.05em;
+                
+                color: #000000;
+                margin-right: 50px;
+            }
+            .product__canti{
+                
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                align-content: center;
+                align-items: center;
+                margin-right: 50px;
+                .canti__title{
+                    font-family: Nunito;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: 0.05em;
+                    
+                    color: #000000;
+                    
+                }
+                
+                .canti__quantity{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: 0.05em;
+                    
+                    color: #000000;
+                }
+            }
+            
+            .product__delete{
+                margin-top:30px
+            }
+            
+            
+        }
+    }
+    
+    .cart__totalCount{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: flex-end;
+        width: 215.5px;
+        height: 48.59px;
+        background: #EF7F7B;
+        margin-bottom: 50px;
+        text-decoration: none;
+        .totalCount__total{
+            margin-top:-1px;
+            font-family: Teko;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 43px;
+            letter-spacing: 0.05em;
+            
+            color: #FFFFFF;
+        }
+        
+        
+        .totalCount__line{
+            margin-top:-40px;
+            width: 37.59px;
+            height: 1px;
+            border: 3px solid #FFFFFF;
+            transform: rotate(180deg);
+        }
+    }
+
+    .cart__checkout{
+        text-decoration: none;
+        p{
+            width: 104.1px;
+            height: 29.74px;
+            background: #BFEC4A;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.05em;
+            color: #000000;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+    }
+    
+    
+}

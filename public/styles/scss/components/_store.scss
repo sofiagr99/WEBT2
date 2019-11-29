@@ -1,0 +1,319 @@
+$phoneWidth:412px;
+
+.header--position {
+    @media screen and (max-width: $phoneWidth) {
+        width: 411px;
+        
+        .header__hawkerslogo{
+            margin-top:10px;
+        }
+        
+        .header__cart{
+            margin-top:10px;
+            
+        }
+        
+    }
+    
+    .header__nav--active{
+        opacity: 1;
+        pointer-events: all;
+        transform: translate(0%, 0%);
+        background: rgba(51, 52, 53, 0.6);
+        backdrop-filter: blur(4px);
+        height: 180px;
+        top: 0;
+        z-index: 1;
+        width: 250px;
+        margin-left:-80px;
+    }
+    
+    
+    
+}
+
+
+
+.store__portada{
+    @media screen and (min-width: $phoneWidth) {
+        
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    @media screen and (max-width: $phoneWidth) {
+        
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+}
+
+
+.store__port{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 600px;
+    
+    .port__category{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        
+        .categoria__title{
+            font-family: Teko;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 43px;
+            /* identical to box height */
+            letter-spacing: 0.05em;
+            
+            color: #000000;
+            
+        }
+        
+        .category__categorys{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: flex-start;
+            align-items: flex-start;
+            
+            .categorys__sports{
+                
+                margin-left:10px;
+            }
+            .categorys__wars{
+                margin-left:10px;
+                
+            }
+            
+            .categorys__adventure{
+                margin-left:10px;
+                
+            }
+        }
+    }
+    
+    .pordata__popular{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-content: flex-end;
+        align-items: flex-end;
+        
+        .populares__title{
+            font-family: Teko;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 43px;
+            /* identical to box height */
+            letter-spacing: 0.05em;
+            
+            color: #000000;
+            
+        }
+        
+        .populares__games{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-content: center;
+            align-items: center;
+            
+            .games__cod{
+                margin-left:10px;
+                
+            }
+            
+            .games__lol{
+                margin-left:10px;
+                
+            }
+            .games__gtav{
+                margin-left:10px;
+                
+            }
+        }
+    }
+}
+
+.store__productlist{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background: #353535;
+    
+    .productlist__title{
+        font-family: Teko;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 43px;
+        /* identical to box height */
+        letter-spacing: 0.05em;
+        
+        color: #FFFFFF;
+        margin-bottom: -10px;
+    }
+    
+    .productlist__filter{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        align-items: center;
+        
+        .order__title{
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            /* identical to box height */
+            
+            color: #FFFFFF;
+        }
+        form{
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            /* identical to box height */
+            
+            color: #FFFFFF;
+            select{
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                /* identical to box height */
+                
+                color: #353535;
+                width: 138px;
+            }
+        }
+    }
+    
+    .productlist__products{
+        margin-top:80px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        align-items: flex-start;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 850px;
+        
+        .products__product{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: center;
+            align-items: center;
+            margin-left:46px;
+            margin-bottom: 100px;
+            
+            .product__image{
+                width: 163px;
+                height: 217px;
+            }
+            .product__data{
+                width: 163px;
+                height: 52px;
+                background: #FFFFFF;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-content: center;
+                align-items: center;
+                
+                .data__price{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    align-content: flex-start;
+                    align-items: flex-start;
+                    
+                    .data__oldPrice{
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 10px;
+                        line-height: 7px;
+                        
+                        color: #727272;
+                    }
+                    .data__newPrice{
+                      
+                        margin-top:-5px;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 13px;
+                        
+                        color: #BF1B3C;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.store__nameStore{  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 51px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.03em;
+    margin-left:387px;
+    margin-right: 523px;
+    margin-top:50px;
+    color: #000000;
+    
+    @media screen and (max-width: $phoneWidth) {
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 79.4%;
+        /* or 38px */
+        display: flex;
+        align-items: flex-start;
+        letter-spacing: -0.03em;
+        margin-left:41px;
+        margin-right: 114px;
+        
+        color: #000000;
+    }
+    
+}
+

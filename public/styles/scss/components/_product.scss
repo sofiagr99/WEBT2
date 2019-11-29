@@ -1,0 +1,142 @@
+
+//responsiveLimit
+$responsiveLimit:412px;
+
+
+.header--position {
+    @media screen and (max-width: $responsiveLimit) {
+        width: 411px;
+        
+        .header__hawkerslogo{
+            margin-top:10px;
+        }
+        
+        .header__cart{
+            margin-top:10px;
+            
+        }
+        
+    }
+    
+    .header__nav--active{
+        opacity: 1;
+        pointer-events: all;
+        transform: translate(0%, 0%);
+        background: rgba(51, 52, 53, 0.6);
+        backdrop-filter: blur(4px);
+        height: 180px;
+        top: 0;
+        z-index: 1;
+        width: 250px;
+        margin-left:-80px;
+    }
+    
+    
+    
+}
+
+.product{
+    @media screen and (min-width: $responsiveLimit) {
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 66px;
+        width: 1000px;
+        height: 392px;
+        border: 1px solid #000000;
+        margin-top:50px;
+        box-sizing: border-box;
+        margin-left:18%;
+        .product__description{
+            width: 450px;
+            margin-right: 50px;
+            
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            
+            color: #000000;
+            
+            
+        }
+        
+        .product__datas{
+            .product__nombre{
+                font-family: Teko;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 30px;
+                line-height: 43px;
+                letter-spacing: 0.05em;
+                
+                color: #302F2F;
+                
+            }
+            
+            .product__precio{
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 41px;
+                
+                color: #000000;
+                
+                
+            }
+            
+            .product__anadir{
+                text-decoration: none;
+
+
+                
+
+                p{
+                    width: 104.1px;
+                    height: 29.74px;
+                    background: #BFEC4A;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    letter-spacing: 0.05em;
+                    color: #000000;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .product__image2{
+            width: 163px;
+            height: 218px;
+            margin-right: 50px;
+            
+        }
+        
+        
+        
+    }
+    
+} 
+
+@media screen and (max-width: $responsiveLimit) {
+    
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+@mixin buyButton{
+  background: #74C344;
+  width: 217.55px;
+  height: 46px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+ 
+}
+
+@mixin addToCarButton{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    
+    color: #74C344;
+    
+}
+
+.buttons__buttonBuyNow{
+    @include buyButton;
+}
+
+.buttons__addToCar{
+    @include addToCarButton;
+
+}
